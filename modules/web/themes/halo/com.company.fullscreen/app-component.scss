@@ -1,0 +1,5 @@
+@import "halo-ext";
+
+@mixin com_company_fullscreen {
+  @include com_company_fullscreen-halo-ext;
+}

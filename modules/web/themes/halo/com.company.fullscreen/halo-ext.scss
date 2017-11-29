@@ -1,0 +1,17 @@
+/* Define your theme modifications inside next mixin */
+@mixin com_company_fullscreen-halo-ext {
+  #fullScreenContent:-moz-full-screen {
+    background-color: white;
+    position: absolute;
+  }
+
+  #fullScreenContent:-webkit-full-screen {
+    background-color: white;
+    position: absolute;
+  }
+
+  #fullScreenContent:fullscreen {
+    background-color: white;
+    position: absolute;
+  }
+}
